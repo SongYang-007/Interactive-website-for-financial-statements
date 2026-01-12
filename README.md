@@ -7,6 +7,13 @@ An interactive financial reporting web application built with **Python Dash** th
 
 The dashboard automatically generates visualizations for **business unit revenue**, **profit margins**, **cumulative revenue**, **expense breakdowns**, and **five-year performance summaries**, along with interactive **Income Statement**, **P&L Summary**, and **Balance Sheet Summary** views.
 
+## Demo Video
+
+This video demonstrates the full functionality of the dashboard, including data upload, dynamic visualization updates, and automated financial statement generation.
+
+▶ Watch the demo on YouTube:  
+https://youtu.be/-GdIQEYUt4c
+
 ## Features
 - Upload raw financial data (CSV or Excel) and automatically generate interactive dashboards
 - Visualize business unit revenue using stacked bar charts

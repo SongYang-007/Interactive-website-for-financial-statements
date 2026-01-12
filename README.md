@@ -5,32 +5,24 @@
 
 An interactive financial reporting web application built with **Python Dash** that transforms uploaded raw financial data into dynamic, structured financial statements and visual analytics.
 
-The dashboard automatically generates visualizations for **business unit revenue**, **profit margins**, **cumulative revenue**, **expense**, and **five-year performance summaries**, along with interactive **Income Statement**, **P&L Summary**, and **Balance Sheet Summary** views.
-
----
+The dashboard automatically generates visualizations for **business unit revenue**, **profit margins**, **cumulative revenue**, **expense breakdowns**, and **five-year performance summaries**, along with interactive **Income Statement**, **P&L Summary**, and **Balance Sheet Summary** views.
 
 ## Features
-
-- Upload raw financial data (CSV or Excel) and automatically generate interactive dashboards  
-- Visualize business unit revenue using stacked bar charts  
-- Analyze profit margins with dual-axis (absolute value and percentage) charts  
-- Display cumulative revenue using waterfall charts  
-- Track expense structure and trends through stacked area charts  
-- Generate five-year performance summaries with tables and micro trend charts  
-- Automatically produce Income Statement, P&L Summary, and Balance Sheet Summary views  
-- Built-in sample dataset when no file is uploaded  
-
----
+- Upload raw financial data (CSV or Excel) and automatically generate interactive dashboards
+- Visualize business unit revenue using stacked bar charts
+- Analyze profit margins with dual-axis (absolute value and percentage) charts
+- Display cumulative revenue using waterfall charts
+- Track expense structure and trends through stacked area charts
+- Generate five-year performance summaries with tables and micro trend charts
+- Automatically produce Income Statement, P&L Summary, and Balance Sheet Summary views
+- Built-in sample dataset when no file is uploaded
 
 ## Tech Stack
-
-- Python  
-- Dash  
-- Plotly  
-- Pandas  
-- NumPy  
-
----
+- Python
+- Dash
+- Plotly
+- Pandas
+- NumPy
 
 ## Data Format (Required Columns)
 
@@ -54,41 +46,24 @@ Total Expenses
 
 > If a column named `Total` is detected instead of `Total Expenses`, the application will automatically rename it.
 
----
-
 ## Sample Data
 
 A sample Excel template is provided in the repository:
 
-```text
-data/CFI-Excel-Data-Visualization-and-Dashboards-Template.xlsx
-```
+* `data/CFI-Excel-Data-Visualization-and-Dashboards-Template.xlsx`
 
 This file can be used directly to test the dashboard by uploading it through the web interface.
 
----
-
 ## How to Run
-
-Install required dependencies:
 
 ```bash
 pip install dash pandas numpy plotly
-```
-
-Run the Dash application:
-
-```bash
 python dashboard1.py
 ```
 
-Open your browser and visit:
+Then open:
 
-```text
-http://127.0.0.1:8050
-```
-
----
+* [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
 ## Project Structure
 
@@ -101,18 +76,12 @@ Interactive Financial Statements Web Dashboard/
     └── CFI-Excel-Data-Visualization-and-Dashboards-Template.xlsx
 ```
 
----
-
 ## Use Case
-
-This project is suitable for:
 
 * Financial performance analysis and reporting
 * Business analytics and data visualization demonstrations
 * Academic projects and portfolio showcases
 * Dash-based interactive web application development
-
----
 
 ## Notes
 

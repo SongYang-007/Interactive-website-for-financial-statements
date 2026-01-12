@@ -1,18 +1,11 @@
-太好了，这一步我直接**给你一整版“零坑位”的 README.md**。
-你**只需要全选 → 复制 → 粘贴 → 保存 → push**，**不会再出现灰框 / 合并成一块的问题**。
 
----
-
-# ✅【最终版 README.md（可直接复制粘贴）】
-
-> ⚠️ 请 **从第一行到最后一行全部复制**，不要多删少删任何 ```。
 
 ````markdown
 # Interactive Financial Statements Web Dashboard
 
 An interactive financial reporting web application built with **Python Dash** that transforms uploaded raw financial data into dynamic, structured financial statements and visual analytics.
 
-The dashboard automatically generates visualizations for **business unit revenue**, **profit margins**, **cumulative revenue**, **expense breakdowns**, and **five-year performance summaries**, along with interactive **Income Statement**, **P&L Summary**, and **Balance Sheet Summary** views.
+The dashboard automatically generates visualizations for **business unit revenue**, **profit margins**, **cumulative revenue**, **expense**, and **five-year performance summaries**, along with interactive **Income Statement**, **P&L Summary**, and **Balance Sheet Summary** views.
 
 ---
 
